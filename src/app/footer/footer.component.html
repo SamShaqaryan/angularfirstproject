@@ -22,7 +22,7 @@
             <form [formGroup]="form">
                 <input type="text" name="name" class="ftinput" placeholder="your name" formControlName="name">
                 <input type="text" name="email" class="ftinput" placeholder="your email" formControlName="email">
-                <textarea name="message" id="" cols="40" rows="10" formControlName="text">your message</textarea>
+                <textarea name="message" id="" cols="45" rows="10" formControlName="text">your message</textarea>
                 <button class="btn-sbm" (click)='submit()'[disabled]='form.invalid' >SUBMIT</button>
             </form>
         </div>

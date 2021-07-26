@@ -1,0 +1,366 @@
+.main { 
+    background:    url(../../assets/2.jpg);
+    background-size: cover;
+    
+}
+
+
+.lorem {
+    text-align: center;
+    color: white;
+  }
+
+  .greatS{
+      color: #44b272;
+  }
+  .enaa {
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 1;
+    margin: 0 0 15px;
+    text-align: center;
+  }
+  .purchase{
+      display: block;
+      margin: 0 auto;
+      background-color:#44b272;
+      color: #ffff;
+      border: 1px solid transparent;
+      border-radius: 50px;
+      font-size: 13px;
+      font-weight: bold;
+      height: 50px;
+      letter-spacing: 1px;
+      line-height: 52px;
+      padding: 0 47px;
+     
+     
+  }
+  
+.nav-container {
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    .info {
+        position: absolute;
+        color: black;
+        top: 0;
+        right: 0;
+    }
+    .menu-items {
+        
+        width: 100%;
+        background-color: #44b272;
+        a {
+            margin-right: 20px;
+            height: 70px;
+            min-width: 80px; 
+            padding-top: 22px;
+            vertical-align: middle;
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            line-height: 26px;
+            font-family: "Montserrat";
+            font-weight: normal;
+            position: relative;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.logo {
+    background-color: #44b272;
+}
+.logoimg {
+    margin: 50px;
+}
+
+.about-img{
+  
+    height: 550px;
+        background-size: cover;
+}
+.about{
+  padding-top: 100px;
+  .read{
+    border: medium none;
+    border-radius: 50px;
+  background-color: #44b272;
+  color: white;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    // font-weight: 300;
+    height: 38px;
+    letter-spacing: 1.5px;
+    line-height: 40px;
+    text-transform: uppercase;
+    width: 250px;
+   }
+   
+}
+.center-txt{
+    color: #666666;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 16px;
+ 
+
+}
+.center-p {
+    color:#878787;
+}
+
+.div-centr{
+    height: 380px;
+    background-color: #f1f1f1;
+    .col:hover{
+        background-color: white;
+        
+    }
+    
+}
+.far {
+    color: green;
+    margin-left: 50px;
+    padding-bottom: 50px;
+}
+.txt{
+    padding-top: 100px;
+}
+
+
+
+
+.creative{
+    
+    color: #44b272;
+   
+}
+
+.our{
+    color: #44b272;
+}
+
+.filter{
+    border: 1px solid #e5e5e5;
+    border-radius: 50px;
+    background-color: white;
+    color: #606060;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    height: 35px;
+    line-height: 28px;
+    margin: 0 5px;
+    min-width: 60px;
+    padding: 0 17px;
+}
+.filter:hover{
+    border-color: green;
+    
+}
+.picture{
+  
+   padding: 20px;
+
+   }
+
+   .hovertext{
+       display: flex;
+       position: absolute;
+       align-items: flex-end;
+        opacity: 0;
+    margin-left: 50px; 
+    color: white;
+       
+   }
+ .overlay{
+    display: flex;
+    position: absolute;
+    background:green;
+    align-items: flex-end;
+    }
+    
+   .picture:hover .overlay {
+         
+       height: 100%;
+       width: 100%;
+       bottom: 0;
+       opacity: 0.5;
+   }
+
+   .picture:hover .hovertext {
+       opacity: 1;      
+    animation: mymove 2s
+}
+.parent{
+    position: absolute;
+}
+
+@keyframes mymove {
+   
+    from {bottom:0px;}
+    to {bottom: 10px;}
+  }
+.people {
+    padding-top: 25px;
+    margin-bottom: 80px;
+}
+  .team {
+      margin: 0 auto;
+      
+        width: 350px;
+    background-color: #f5f5f5;
+     i {
+         font-weight: 800;
+         margin-left:20px;
+     }
+     i:hover{
+         cursor: pointer;
+         color: green;
+         transition-duration: 1s;
+
+     }
+  }
+.myteam {
+display: flex;
+.firstman{
+     padding-left: 150px;
+    position: absolute;
+    margin: 0 auto  ;
+  
+}
+
+}
+ 
+.greendiv{
+    background: url(../../assets/funfact-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .counter {
+        color:white
+    }
+    .green{
+        padding-top:80px;
+        background-color:#44b272;
+        opacity: 0.8;
+        height: 350px;
+    }
+  
+}
+
+
+.midlediv{
+    background-color: #2d3e50;
+border-color: #2d3e50;
+font-size: 20px;
+    font-weight: 300;
+    line-height: 38px;
+color: white;
+text-transform: uppercase;
+.line {
+    background-color: white;
+}
+
+.getstarted {
+    background-color: #44b272;
+    color: white;
+}
+}
+
+.pricingitem {
+    // padding-left: 120px;
+    text-align: center;
+    width: 400px;
+    border:1px solid #e8e8e8;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 1;
+    margin-left: 80px;
+    padding-top:50px;
+    text-transform: uppercase;
+  margin-bottom: 80px;
+
+    hr{
+        
+        margin:10px  auto;
+        width: 100px;
+    }
+    .ullist{
+        
+        list-style-type: none;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 38px;
+            
+       li {
+        padding-top: 15px;
+       }
+       .getstarted{
+           margin-top: 30px;
+       }
+
+    }
+ 
+
+}
+.getstarted{
+    border-color: #2d3e50;
+    color: #2d3e50;
+    background-color: transparent; 
+    border-radius: 50px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 52px;
+    padding: 0 47px;
+    text-transform: uppercase;
+}
+.aboutjanet{
+    margin-top: 50px;
+    padding-bottom: 80px;
+}
+.Janet{
+    padding-top: 80px;
+    background-color: #f1f1f1;;
+    .JanetP{
+    
+        color: #4f4f4f;
+        font-size: 30px;
+        font-weight: normal;
+        line-height: 1;
+        text-transform: capitalize;
+    }
+    .janetpic{
+        
+        width: 105px;
+        height: 105px;
+        margin: 0 auto;
+        border-radius: 50%;
+        background: url(../../assets/pic.jpg);
+    }
+}
+.form {
+    background-color:#44b272 ;
+    width: 800px    ;
+    margin: 0 auto;
+    border-bottom: 2px solid;
+    .formtxt{
+        color: white;
+        padding-top: 30px;
+      padding:45px 50px 38px;
+    }
+
+    
+}
+.triangle {
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 50px 50px 0 50px;
+    margin-bottom: -50px;
+    border-color: #44b272 transparent ;
+}

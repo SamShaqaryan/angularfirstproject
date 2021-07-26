@@ -1,0 +1,70 @@
+.blog{
+    margin-top: 50px;
+    .blog-title{
+        color: #4f4f4f;
+        .our {
+            color: green;
+        }
+    }
+   
+}
+
+.pics{
+    margin-bottom: 80px;
+   
+    .read{
+        color: #7d7d7d;
+        font-family: 'Montserrat';
+        font-size: 13px;
+        text-transform: uppercase;
+    }
+    .date {
+        color: #7d7d7d;
+        display: block;
+        font-family: 'Montserrat';
+    }
+    .more{
+        color:darkgrey ;
+    }
+    .galery {
+        display: flex;
+        height: 230px;
+        padding: 20px;
+        .context{
+            padding-left: 15px;
+        }
+}
+}
+.started {
+    background:url(../../assets/start-project-bg.jpg);
+    background-repeat: no-repeat ;
+    height: 100%;
+    color: #fff;
+    padding-bottom: 120px;
+    .startedheader{
+        text-align: center;
+        display: flex;
+        padding-top: 60px;
+        justify-content: space-between;
+    }
+    .startbtn {
+        background-color: #44b272;
+    color: white;
+    border-radius: 50%;
+    border-radius: 50px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 52px;
+    padding: 0 47px;
+    text-transform: uppercase
+    }
+    .welcome {
+        text-align: center;
+    }
+  
+}
+.companies{
+    
+    height: 250px;
+   
+}

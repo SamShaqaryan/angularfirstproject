@@ -1,0 +1,106 @@
+
+
+  .footer{
+     background:    url(../../assets/footer-bg.jpg);
+      background-size: cover;
+  }
+  .ftenaa{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+   
+  }
+  .contact-about {
+    width: 350px;
+  
+  }
+  .contact-info {
+    margin-left: 100px;
+    margin-right: 50px;
+  }
+  
+  .ftinput { 
+    background-color: transparent;
+      border: 1px solid #e1e1e1;
+      border-radius: 50px;
+      color: #dadada;
+      font-size: 12px;
+      font-weight: 300;
+      height: 31px;
+      letter-spacing: 0.2px;
+      line-height: 29px;
+      margin-right: 20px;
+  }
+   textarea {
+     margin-top: 20px;
+     display: block;
+    background-color: transparent;
+    border: 1px solid #e1e1e1;
+    border-radius: 13px;
+    color: #dadada;
+    font-size: 12px;
+    font-weight: 300;
+    height: 86px;
+    letter-spacing: 0.2px;
+    padding: 5px 15px;
+    resize: none;
+   }
+  
+   .btn-sbm {
+    border: medium none;
+    border-radius: 50px;
+  background-color: green;
+  color: white;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 700;
+    height: 38px;
+    letter-spacing: 1.5px;
+    line-height: 40px;
+    text-transform: uppercase;
+    width: 170px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+   }
+  
+   p {
+     color: white;
+   }
+  
+   .touch {
+    color: green; 
+    font-weight: bold;
+   }
+   .ftp{
+     padding-bottom: 20px;
+     font-weight: bold;
+   }
+  
+   .fb-btn { 
+  
+    border: medium none;
+    border-radius: 50px;
+  background-color: green;
+  color: white;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    // font-weight: 300;
+    height: 38px;
+    letter-spacing: 1.5px;
+    line-height: 40px;
+    text-transform: uppercase;
+    width: 250px;
+      
+   }
+   .copyright {
+     
+    padding-top: 1px;
+    padding-bottom: 5px;;
+      text-align: center;
+     background-color:#1f2f40; 
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+   }
+   

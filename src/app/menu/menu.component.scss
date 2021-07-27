@@ -173,11 +173,6 @@
     border-color: green;
     
 }
-.picture{
-  
-   padding: 20px;
-
-   }
 
    .hovertext{
        display: flex;
@@ -190,30 +185,32 @@
    }
 
    .teams {
-       padding-top: 450px;
+       padding-top: 30px;
    }
+
+
+
  .overlay{
-    display: flex;
     position: absolute;
     background:green;
-    align-items: flex-end;
     }
-    
-   .picture:hover .overlay {
+  
+   .parent:hover .overlay {
          
-       height: 100%;
+      height: 100%;
        width: 100%;
        bottom: 0;
        opacity: 0.5;
    }
 
-   .picture:hover .hovertext {
+   .parent:hover .hovertext {
        opacity: 1;      
     animation: mymove 2s
+    
 }
-.parent{
-    position: absolute;
-}
+
+    
+
 
 @keyframes mymove {
    
